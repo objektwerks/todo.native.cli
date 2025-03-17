@@ -39,13 +39,9 @@ Run
 
 Execute
 -------
-1. ```java -jar target/scala-3.7.0-RC1/todo-cli-0.8-SNAPSHOT.jar list --filter all```
-2. ```java -jar target/scala-3.7.0-RC1/todo-cli-0.8-SNAPSHOT.jar add --todo Eat sushi!```
-3. ```java -jar target/scala-3.7.0-RC1/todo-cli-0.8-SNAPSHOT.jar complete --id 1```
-4. ```java -jar target/scala-3.7.0-RC1/todo-cli-0.8-SNAPSHOT.jar help```
->```java -jar target/scala-3.7.0-RC1/todo-cli-0.8-SNAPSHOT.jar``` displays the help menu.
+1. todo
 
 Resources
 ---------
-* [MainArgs Github](https://github.com/com-lihaoyi/mainargs?tab=readme-ov-file#varargs-parameters)
-* [Os-Lib Github](https://github.com/com-lihaoyi/os-lib)
+1. [Scala Native Docs](http://www.scala-native.org/en/latest/index.html)
+2. [Scala Native Intro Video](https://www.youtube.com/watch?v=u2CnE-sRdBw)
