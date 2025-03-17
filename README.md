@@ -1,6 +1,6 @@
-Todo CLI
---------
-Todo command line app using MainArgs, Os-lib, uPickle and Scala 3.
+Todo Native CLI
+---------------
+Todo native command line app using MainArgs, Os-lib, uPickle and Scala 3.
 
 Build
 -----
