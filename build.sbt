@@ -1,3 +1,7 @@
+import scalanative.build.Mode
+
+enablePlugins(ScalaNativePlugin)
+
 name := "todo.native.cli"
 organization := "objektwerks"
 version := "0.1-SNAPSHOT"
@@ -11,3 +15,6 @@ libraryDependencies ++= Seq(
 scalacOptions ++= Seq(
   "-Wunused:all"
 )
+nativeConfig ~= {
+  _.withMode(Mode.releaseFast)
+}
