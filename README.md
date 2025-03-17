@@ -23,9 +23,10 @@ Publish
 
 Commands
 --------
-1. list --filter
-2. add --todo
-3. complete --id
+1. ```help```
+2. ```list --filter```
+3. ```add --todo```
+4. ```complete --id```
 >The command ```list --filter``` accepts ```all```, ```completed``` and ```incomplete```
 * ```list --filter all | completed | incomplete```
 >Since the ```list``` default is: ```--filter all```, this also works:
