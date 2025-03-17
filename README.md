@@ -31,17 +31,14 @@ Commands
 >Since the ```list``` default is: ```--filter all```, this also works:
 * ```list```
 
-Run
----
-1. ```sbt "run list --filter all"```
-2. ```sbt "run add --todo drink beer"```
-3. ```sbt "run complete --id 1"```
-4. ```sbt "run help"```
->```sbt run``` displays the help menu.
-
 Execute
 -------
 1. todo
+2. todo list
+3. todo list --filter all | completed | incomplete
+4. todo add --todo drink beer
+5. todo complete --id 1
+6. todo help
 
 Resources
 ---------
