@@ -36,7 +36,7 @@ Execute
 1. todo
 2. todo list
 3. todo list --filter all | completed | incomplete
-4. todo add --todo drink beer
+4. todo add --todo drink ipa
 5. todo complete --id 1
 6. todo help
 
