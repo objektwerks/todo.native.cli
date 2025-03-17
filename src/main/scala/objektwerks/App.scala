@@ -1,10 +1,8 @@
 package objektwerks
 
-import com.typesafe.scalalogging.LazyLogging
-
 import mainargs.{main, arg, ParserForMethods}
 
-object App extends LazyLogging:
+object App:
   val store = Store()
 
   @main
@@ -47,7 +45,6 @@ object App extends LazyLogging:
 
   private def log(message: String): Unit =
     println(message)
-    logger.info(message)
 
   private def list(todos: List[Todo]): Unit =
     todos
