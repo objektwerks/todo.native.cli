@@ -17,9 +17,9 @@ Test
 
 Publish
 -------
-1. sbt clean compile nativeLink
-2. mv target/scala-{version}/scala-native-out target/scala-{version}/todo
-3. sudo cp target/scala-{version}/todo /usr/local/bin
+1. ```sbt clean compile nativeLink```
+2. ```mv target/scala-$version/scala-native target/scala-$version/todo```
+3. ```sudo cp target/scala-$version/todo /usr/local/bin```
 
 Commands
 --------
