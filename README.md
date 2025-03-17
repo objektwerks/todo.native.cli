@@ -18,8 +18,8 @@ Test
 Publish
 -------
 1. ```sbt clean compile nativeLink```
-2. ```mv target/scala-$version/scala-native target/scala-$version/todo```
-3. ```sudo cp target/scala-$version/todo /usr/local/bin```
+2. ```mv target/scala-3.7.0-RC1/scala-native target/scala-3.7.0-RC1/todo```
+3. ```sudo cp target/scala-3.7.0-RC1/todo /usr/local/bin```
 
 Commands
 --------
