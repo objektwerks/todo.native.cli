@@ -2,6 +2,11 @@ Todo Native CLI
 ---------------
 Todo native command line app using MainArgs, Os-lib, uPickle and Scala 3.
 
+Install
+-------
+>See: http://www.scala-native.org/en/latest/user/setup.html
+1. brew install llvm
+
 Build
 -----
 1. ```sbt clean compile```
