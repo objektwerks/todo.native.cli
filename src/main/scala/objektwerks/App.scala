@@ -7,26 +7,26 @@ object App:
 
   @main
   def list( @arg filter: String = Filter.all ): Unit =
-    log(s"list by filter: $filter")
+    println(s"list by filter: $filter")
     val todos = store.listTodos()
     filter match
       case Filter.all => list(todos)
       case Filter.completed => list( todos.filter(todo => todo.completed.nonEmpty) )
       case Filter.incomplete => list( todos.filter(todo => todo.completed.isEmpty) )
-      case _ => log("list --filter all | completed | incomplete")
+      case _ => println("list --filter all | completed | incomplete")
 
   @main
   def add( @arg todo: String* ): Unit =
     val newTodo = Todo(id = store.nextId(), todo = todo.tail.mkString(" "))
     store.writeTodo(newTodo)
-    log(s"add --todo: $newTodo")
+    println(s"add --todo: $newTodo")
 
   @main
   def complete( @arg id: Int ): Unit =
     val todo = store.readTodo(s"$id.json")
     val completedTodo = todo.copy(completed = Todo.datetime())
     store.writeTodo(completedTodo)
-    log(s"completed --id: $completedTodo")
+    println(s"completed --id: $completedTodo")
 
   @main
   def help(): Unit =
@@ -37,14 +37,11 @@ object App:
     else ParserForMethods(this).runOrExit(args)
 
   private def menu(): Unit =
-    log("menu:")
-    log("1. list --filter all | completed | incomplete")
-    log("2. add --todo")
-    log("3. complete --id")
-    log("4. help")
-
-  private def log(message: String): Unit =
-    println(message)
+    println("menu:")
+    println("1. list --filter all | completed | incomplete")
+    println("2. add --todo")
+    println("3. complete --id")
+    println("4. help")
 
   private def list(todos: List[Todo]): Unit =
     todos
