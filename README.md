@@ -15,9 +15,11 @@ Test
 ----
 1. ```sbt clean test```
 
-Assembly
---------
-1. ```sbt clean test assembly```
+Publish
+-------
+1. sbt clean compile nativeLink
+2. mv target/scala-{version}/scala-native-out target/scala-{version}/todo
+3. sudo cp target/scala-{version}/todo /usr/local/bin
 
 Commands
 --------
