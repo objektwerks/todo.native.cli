@@ -7,10 +7,10 @@ organization := "objektwerks"
 version := "0.1-SNAPSHOT"
 scalaVersion := "3.7.0-RC1"
 libraryDependencies ++= Seq(
-  "com.lihaoyi" % "mainargs" % "0.7.6",
-  "com.lihaoyi" % "os-lib" % "0.11.5-M3",
-  "com.lihaoyi" % "upickle" % "4.1.0",
-  "org.scalatest" % "scalatest" % "3.2.19" % Test
+  "com.lihaoyi" %%% "mainargs" % "0.7.6",
+  "com.lihaoyi" %%% "os-lib" % "0.11.4",
+  "com.lihaoyi" %%% "upickle" % "4.1.0",
+  "org.scalatest" %%% "scalatest" % "3.2.19" % Test
 )
 scalacOptions ++= Seq(
   "-Wunused:all"
