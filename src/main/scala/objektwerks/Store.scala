@@ -5,7 +5,7 @@ import upickle.default.{read => readJson, write => writeJson}
 import Todo.given
 
 final class Store:
-  private val todosPath = os.home / ".todon"
+  private val todosPath = os.home / ".todon" / "data"
 
   os.makeDir.all(todosPath)
   scribe.info("Initialized store.")
