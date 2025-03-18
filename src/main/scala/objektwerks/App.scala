@@ -2,7 +2,16 @@ package objektwerks
 
 import mainargs.{main, arg, ParserForMethods}
 
+import scribe.Level
+
 object App:
+  scribe.Logger.root
+    .clearHandlers()
+    .clearModifiers()
+    .withHandler(minimumLevel = Some(Level.Info))
+    //.withHandler(writer = FileWriter("logs" / ("app-" % year % "-" % month % "-" % day % ".log")))
+    .replace()
+
   val store = Store()
 
   @main
