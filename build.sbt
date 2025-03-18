@@ -11,6 +11,7 @@ libraryDependencies ++= Seq(
   "com.lihaoyi" %%% "os-lib" % "0.11.4",
   "com.lihaoyi" %%% "upickle" % "4.1.0",
   "org.ekrich" %%% "sjavatime" % "1.3.0",
+  "com.outr" %%% "scribe" % "3.16.0",
   "org.scalatest" %%% "scalatest" % "3.2.19" % Test
 )
 scalacOptions ++= Seq(
