@@ -13,8 +13,8 @@ final class Store:
   scribe.Logger.root
     .clearHandlers()
     .clearModifiers()
-    .withHandler(minimumLevel = Some(Level.Info))
     .withHandler(writer = FileWriter(SystemProperties().getOrElse("user.home", "~") / ".todon" / "log" / "app.log") )
+    .withMinimumLevel(Level.Info)
     .replace()
 
   private val todosPath = os.home / ".todon" / "data"
