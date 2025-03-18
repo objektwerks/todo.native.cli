@@ -10,7 +10,7 @@ object App:
     .clearHandlers()
     .clearModifiers()
     .withHandler(minimumLevel = Some(Level.Info))
-    .withHandler(writer = FileWriter("~" / ".todon" / "log" / "app.log") )
+    .withHandler(writer = FileWriter("~" / ".todon" / "logs" / "app.log") )
     .replace()
 
   val store = Store()

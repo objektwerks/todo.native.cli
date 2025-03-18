@@ -41,6 +41,20 @@ Execute
 5. todo complete --id 1
 6. todo help
 
+Persistence
+-----------
+>**Todos** are stored as json files here:
+```
+~/.todon/data
+```
+
+Logging
+-------
+>**Log** files are stored here:
+```
+~/.todon/logs
+```
+
 Resources
 ---------
 1. [Scala Native Docs](http://www.scala-native.org/en/latest/index.html)
