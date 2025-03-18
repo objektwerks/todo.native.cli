@@ -4,7 +4,7 @@ enablePlugins(ScalaNativePlugin)
 
 name := "todo.native.cli"
 organization := "objektwerks"
-version := "0.2-SNAPSHOT"
+version := "0.2"
 scalaVersion := "3.7.0-RC1"
 libraryDependencies ++= Seq(
   "com.lihaoyi" %%% "mainargs" % "0.7.6",
