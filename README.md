@@ -52,7 +52,7 @@ Logging
 -------
 >**Log** files are stored here:
 ```
-~/.todon/logs
+~/.todon/log
 ```
 
 Resources
