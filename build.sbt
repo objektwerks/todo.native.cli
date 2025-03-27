@@ -8,6 +8,7 @@ version := "0.3-SNAPSHOT"
 scalaVersion := "3.7.0-RC1"
 libraryDependencies ++= Seq(
   "com.lihaoyi" %%% "mainargs" % "0.7.6",
+  "com.lihaoyi" %%% "fansi" % "0.5.0",
   "com.lihaoyi" %%% "os-lib" % "0.11.4",
   "com.lihaoyi" %%% "upickle" % "4.1.0",
   "org.ekrich" %%% "sjavatime" % "1.3.0",
