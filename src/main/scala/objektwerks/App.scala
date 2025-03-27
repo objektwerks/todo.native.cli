@@ -28,7 +28,7 @@ object App:
     val todo = store.readTodo(s"$id.json")
     val completedTodo = todo.copy(completed = Todo.datetime())
     store.writeTodo(completedTodo)
-    println(s"completed --id: $completedTodo")
+    println(Bold.On(s"completed --id: $completedTodo"))
 
   @main
   def help(): Unit =
