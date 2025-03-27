@@ -1,5 +1,7 @@
 package objektwerks
 
+import fansi.Str
+
 import mainargs.{main, arg, ParserForMethods}
 
 object App:
@@ -37,7 +39,7 @@ object App:
     else ParserForMethods(this).runOrExit(args)
 
   private def menu(): Unit =
-    println("menu:")
+    println(bold("menu:"))
     println("1. list --filter all | completed | incomplete")
     println("2. add --todo")
     println("3. complete --id")
@@ -47,3 +49,5 @@ object App:
     todos
       .zip( Stream.from(1) )
       .foreach { case (todo, index) => println(s"$index. $todo") }
+
+  private def bold(value: String): Str = fansi.Bold.On(value)
