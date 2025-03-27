@@ -9,7 +9,7 @@ object App:
 
   @main
   def list( @arg filter: String = Filter.all ): Unit =
-    println(Bold.On(s"List by filter: $filter"))
+    println(Bold.On(s"list --filter: $filter"))
     val todos = store.listTodos()
     filter match
       case Filter.all => list(todos)
@@ -21,7 +21,7 @@ object App:
   def add( @arg todo: String* ): Unit =
     val newTodo = Todo(id = store.nextId(), todo = todo.tail.mkString(" "))
     store.writeTodo(newTodo)
-    println(s"add --todo: $newTodo")
+    println(Bold.On(s"add --todo: $newTodo"))
 
   @main
   def complete( @arg id: Int ): Unit =
