@@ -1,6 +1,6 @@
 Todo Native CLI
 ---------------
->Todo native command line app using MainArgs, Os-lib, uPickle, sJavaTime, Scribe and Scala 3.
+>Todo native command line app using MainArgs, Fansi, Os-lib, uPickle, sJavaTime, Scribe and Scala 3.
 
 Install
 -------
