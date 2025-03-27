@@ -9,7 +9,7 @@ object App:
 
   @main
   def list( @arg filter: String = Filter.all ): Unit =
-    println(s"list by filter: $filter")
+    println(Bold.On(s"List by filter: $filter"))
     val todos = store.listTodos()
     filter match
       case Filter.all => list(todos)
