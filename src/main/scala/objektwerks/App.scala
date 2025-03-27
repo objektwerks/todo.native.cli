@@ -32,14 +32,14 @@ object App:
 
   @main
   def help(): Unit =
-    menu()
+    commands()
 
   def main(args: Array[String]): Unit =
-    if args.isEmpty then menu()
+    if args.isEmpty then commands()
     else ParserForMethods(this).runOrExit(args)
 
-  private def menu(): Unit =
-    println(Bold.On("Menu:"))
+  private def commands(): Unit =
+    println(Bold.On("Commands:"))
     println("1. list --filter all | completed | incomplete")
     println("2. add --todo")
     println("3. complete --id")
