@@ -61,3 +61,4 @@ Resources
 * [Scala Native Intro Video](https://www.youtube.com/watch?v=u2CnE-sRdBw)
 * [MainArgs Github](https://github.com/com-lihaoyi/mainargs?tab=readme-ov-file#varargs-parameters)
 * [Os-Lib Github](https://github.com/com-lihaoyi/os-lib)
+* [uPickle Github](https://github.com/com-lihaoyi/upickle)
