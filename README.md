@@ -41,7 +41,7 @@ Execute
 5. todo complete --id 1
 6. todo help
 
-Persistenceely
+Persistence
 -----------
 >**Todos** are stored as json files here:
 ```
