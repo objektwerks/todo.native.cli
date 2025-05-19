@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   "com.lihaoyi" %%% "mainargs" % "0.7.6",
   "com.lihaoyi" %%% "fansi" % "0.5.0",
   "com.lihaoyi" %%% "os-lib" % "0.11.4",
-  "com.lihaoyi" %%% "upickle" % "4.1.0",
+  "com.lihaoyi" %%% "upickle" % "4.2.1",
   "org.ekrich" %%% "sjavatime" % "1.3.0",
   "com.outr" %%% "scribe" % "3.16.1",
   "com.outr" %%% "scribe-file" % "3.16.0",
