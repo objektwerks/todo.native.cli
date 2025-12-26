@@ -7,7 +7,7 @@ organization := "objektwerks"
 version := "0.4-SNAPSHOT"
 scalaVersion := "3.8.0-RC3"
 libraryDependencies ++= Seq(
-  "com.lihaoyi" %%% "mainargs" % "0.7.7",
+  "com.lihaoyi" %%% "mainargs" % "0.7.8",
   "com.lihaoyi" %%% "fansi" % "0.5.1",
   "com.lihaoyi" %%% "os-lib" % "0.11.6",
   "com.lihaoyi" %%% "upickle" % "4.4.2-RC2",
