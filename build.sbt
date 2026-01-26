@@ -9,7 +9,7 @@ scalaVersion := "3.8.0-RC6"
 libraryDependencies ++= Seq(
   "com.lihaoyi" %%% "mainargs" % "0.7.8",
   "com.lihaoyi" %%% "fansi" % "0.5.1",
-  "com.lihaoyi" %%% "os-lib" % "0.11.6-M1",
+  "com.lihaoyi" %%% "os-lib" % "0.11.7",
   "com.lihaoyi" %%% "upickle" % "4.4.2",
   "org.ekrich" %%% "sjavatime" % "1.4.0",
   "com.outr" %%% "scribe" % "3.17.0",
