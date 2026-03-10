@@ -12,7 +12,7 @@ libraryDependencies ++= Seq(
   "com.lihaoyi" %%% "os-lib" % "0.11.9-M7",
   "com.lihaoyi" %%% "upickle" % "4.4.3",
   "org.ekrich" %%% "sjavatime" % "1.4.0",
-  "com.outr" %%% "scribe" % "3.17.0",
+  "com.outr" %%% "scribe" % "3.18.0",
   "com.outr" %%% "scribe-file" % "3.17.0",
   "org.scalatest" %%% "scalatest" % "3.2.19" % Test
 )
